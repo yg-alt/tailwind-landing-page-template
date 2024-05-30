@@ -86,9 +86,9 @@ export default function Testimonials() {
                 <blockquote className="text-xl font-medium mb-4">
                   “ 我喜欢这个产品，会推荐给任何人。非常容易使用，我们的多个网站都用上了。我们一直得到好评。 “
                 </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
+                <cite className="block font-bold text-lg not-italic mb-1">yg-alt</cite>
                 <div className="text-gray-600">
-                  <span>CEO & Co-Founder</span> <a className="text-blue-600 hover:underline" href="#0">@Dropbox</a>
+                  <span>CEO & Co-Founder</span> <a className="text-blue-600 hover:underline" href="#0">@Codewan</a>
                 </div>
               </div>
 

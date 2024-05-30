@@ -11,8 +11,8 @@ export default function ResetPassword() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1 mb-4">Let's get you back up on your feet</h1>
-            <p className="text-xl text-gray-600">Enter the email address you used when you signed up for your account, and we'll email you a link to reset your password.</p>
+            <h1 className="h1 mb-4">获取你的反馈</h1>
+            <p className="text-xl text-gray-600">输入您注册帐户时使用的电子邮件地址，我们将通过电子邮件向您发送重置密码的链接。</p>
           </div>
 
           {/* Form */}
@@ -20,13 +20,13 @@ export default function ResetPassword() {
             <form>
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
-                  <label className="block text-gray-800 text-sm font-medium mb-1" htmlFor="email">Email <span className="text-red-600">*</span></label>
-                  <input id="email" type="email" className="form-input w-full text-gray-800" placeholder="Enter your email address" required />
+                  <label className="block text-gray-800 text-sm font-medium mb-1" htmlFor="email">邮箱 <span className="text-red-600">*</span></label>
+                  <input id="email" type="email" className="form-input w-full text-gray-800" placeholder="输入邮箱地址" required />
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
-                  <button className="btn text-white bg-blue-600 hover:bg-blue-700 w-full">Send reset link</button>
+                  <button className="btn text-white bg-blue-600 hover:bg-blue-700 w-full">发送重置链接</button>
                 </div>
               </div>
             </form>
